@@ -10,5 +10,7 @@ Hey everyone I have created a explore Maharashtra website where the tourist can 
 ![Screenshot (80)](https://github.com/user-attachments/assets/b690fd2f-d031-4340-bc68-8c42b78197d5)
 ![Screenshot (81)](https://github.com/user-attachments/assets/eb8e8ccc-6163-47f7-8e55-9b320477d5b4)
 ![Screenshot (73)](https://github.com/user-attachments/assets/437c8cb3-99a7-4b64-b3a4-95e235f90a8b)
-![Uploading Screenshot (82).png…]()
+![Screenshot (82)](https://github.com/user-attachments/assets/39c33f32-4185-4f43-9566-5d69aa734ca4)
+
+
 
