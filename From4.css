@@ -1,0 +1,86 @@
+body{
+    background-image: url("nightmountain.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+   color: white;
+}
+#heading{
+    color: white;
+    text-align: center;
+    font-size: 2.75rem;
+}
+h2{
+    color: rgb(96, 124, 206);
+    font-size: 2.25rem;
+}
+.content{
+    width: 80%;
+    margin: auto;
+    height: 600px;
+    margin-top: 20px;
+    
+    /* display: flex;
+    align-items: center;
+    justify-content: space-between; */
+   
+  
+}
+
+
+.register {
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    margin-top: 10px;
+    width: 47%;
+    height: 100%;
+      background-color:  rgba(0, 0, 0, 0.577);
+     padding: 10px;
+   
+   
+     
+}
+.login{
+    display: flex;
+   margin: auto;
+    justify-content: center;
+    margin-top: 10px;
+    width: 47%;
+    height: 100%;
+      background-color:rgba(0, 0, 0, 0.577);
+     padding: 10px;
+    
+}
+.inner{
+    width: 90%;
+}
+p{
+    margin-top: 5px;
+    padding-bottom: 10px;
+}
+
+.common{
+  
+    height: 2.5rem;
+    width: 100%;
+    margin: auto;
+    background-color: rgba(128, 128, 128, 0.414);
+    font-size: 1.25rem;
+    border: none;
+}
+input{
+    margin-top: 10px;
+}
+
+::placeholder{
+    color: white;
+}
+button{
+    color: white;
+    background-color: rgb(203, 154, 65);
+    border: none;
+    font-size: 1.5rem;
+    width: 100%;
+
+    margin: auto;
+}

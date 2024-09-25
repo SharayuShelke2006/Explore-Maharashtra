@@ -1,0 +1,101 @@
+ /* @media only screen and (max-width:2000px) and (min-width:100px) 
+ and (max-height:2000px) and (min-height:100px){ */
+
+
+body{
+    background-image: url(Beachimg.png); 
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed; 
+    /* filter:brightness(50%) */
+}
+a{
+    text-decoration: none;
+}
+.disc{
+
+    top: 0px;
+    height: 30vh;
+    width: 70vw;
+    margin: auto;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: rgba(19, 18, 18, 0.771);
+}
+.bimg{
+  background-image: url(Ganpatipule.jpg);
+  width: 39%;
+  height: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.bwritten{
+    width: 58%;
+    height: 100%;
+    background-color: #504c4c77;
+    color: white;
+    /* font-size: 1.5rem; */
+}
+#beach1 .bimg{
+    background-image: url(Ganpatipule.jpg); 
+}
+#beach2 .bimg{
+    background-image: url(Harihareshwar.jpg); 
+}
+#beach3 .bimg{
+    background-image: url(Harnai-murud.jpg); 
+}
+#beach4 .bimg{
+    background-image: url(Kihim.jpg); 
+}
+#beach5 .bimg{
+    background-image: url(Shiroda.jpg); 
+}
+#beach6 .bimg{
+    background-image: url(Shrivardhan.jpg); 
+}
+#beach7 .bimg{
+    background-image: url(Velas.jpg); 
+}
+#beach8 .bimg{
+    background-image: url(Vengurla.jpg); 
+}
+ /* ::background-image{
+    filter: grayscale(100%);
+}  */
+h5{
+    margin-top: -1rem;
+}
+#beach9 .bimg{
+    background-image: url(Guhagar.jpg); 
+}
+#beach10 .bimg{
+    background-image: url(Tarkali.jpg); 
+}
+#beach11 .bimg{
+    background-image: url(Bordi\ dahanu.jpg); 
+}
+#beach12 .bimg{
+    background-image: url(Tarkarli1.jpg); 
+}
+
+h6 a{
+    text-decoration: none;
+    font-size: 1.37rem;
+    color: white;
+   
+}
+h6{
+    position: absolute;
+    margin-left: 50px;
+}
+#active{
+  color: rgb(140, 87, 140);
+  text-decoration: underline;
+}

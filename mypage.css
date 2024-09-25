@@ -1,0 +1,20 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+
+   
+}
+body{
+    background-color: #2b263b;
+}
+.menu{
+    height: 100px;
+    width: 100px;
+    font-size: 2rem;
+    background-color: white;
+    color: #2b263b;
+    border: none;
+    border-radius: 10px;
+}

@@ -1,0 +1,72 @@
+body{
+    background-image: url(Unescoimg.jpg); 
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed; 
+    /* filter:brightness(50%) */
+}
+.disc{
+
+    top: 0px;
+    height: 30vh;
+    width: 70vw;
+    margin: auto;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: rgba(19, 18, 18, 0.771);
+}
+h5{
+    margin-top: -1rem;
+}
+.uimg{
+  width: 39%;
+  height: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.uwritten{
+    width: 58%;
+    height: 100%;
+    background-color: #504c4c77;
+    color: white;
+    /* font-size: 1.5rem; */
+}
+a{
+    text-decoration: none;
+}
+#unesco1 .uimg{
+    background-image: url(Elephanta.jpg); 
+}
+#unesco2 .uimg{
+    background-image: url(Ellora.jpg); 
+}
+#unesco3 .uimg{
+    background-image: url(Chhatrapati.jpg); 
+}
+#unesco4 .uimg{
+    background-image: url(Ajanta.jpg); 
+}
+#unesco5 .uimg{
+    background-image: url(Victorian.jpg); 
+}
+
+h6 a{
+    text-decoration: none;
+    font-size: 1.37rem;
+    color: white;
+   
+}
+h6{
+    position: absolute;
+    margin-left: 12px;
+}
+#active{
+  color: rgb(140, 87, 140);
+  text-decoration: underline;
+}

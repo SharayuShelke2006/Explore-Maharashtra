@@ -1,0 +1,252 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #2b263b;
+}
+
+.header{
+    width: 100vw;
+    height: 100vh;
+    /* border : 1px solid black; */
+    /* background-image: linear-gradient(to top, rgba(0, 0, 0, 0.8) 0, rgba(0, 0, 0, 0) 60%, rgba(0, 0, 0, 0.8) 100%); */
+    /* background-image: url(raigad.png); */
+    /* background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center ;
+    background-size: max(1200px, 100vw); */
+
+  
+
+}
+.box{
+    height: 100%;
+    width: 100%;
+    padding: 0;
+    position: absolute;
+    top: 0px;
+    /* background-color: rgba(0, 0, 0, 0.573);
+    opacity: 0.9; */
+
+}
+.box video{
+    height: 100vh;
+    width: 100vw;
+    object-fit: cover;
+    top: 0px;
+}
+
+
+.navbar{
+   width: 100%;
+    position: absolute;
+    z-index: 5;
+    text-align: center;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+}
+.logo{
+    margin-top: 10px;
+    width: 50%;
+    font-family: "Playwrite NG Modern", cursive;
+  font-optical-sizing: auto;
+  animation-name: logoanime;
+  animation-timing-function: ease-in;
+  animation-duration: 2s;
+  
+}
+
+@keyframes logoanime {
+    from{font-size: 0px;}
+    to{font-size: 1.5rem;}
+}
+
+
+.links{
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: 1.25rem;
+}
+  
+@media(max-width:690px){
+    .links{
+        flex-direction: column;
+    }
+    .logo{
+        animation-name: none;
+        font-size: 0.75rem;
+    }
+}
+@media(max-width:300px){
+    .navbar{
+        flex-direction: column;
+    }
+}
+.navbar a{
+    color: white;
+
+    /* color: black; */
+    text-decoration: none;
+}
+.navbar a:hover{
+    animation-name: underline;
+    animation-duration: 0.2s;
+    animation-timing-function: ease-in;
+    animation-fill-mode: forwards;
+
+}
+@keyframes underline {
+  from{text-decoration: none; }
+  to{text-decoration: underline rgb(234, 235, 235);text-shadow: 1px;}
+}
+
+/*content side*/
+.content{
+    width: 100vw;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: 1.25rem;
+}
+.content a{
+    text-decoration: none;
+    color: #985eff;
+}
+
+@media (max-width:1300px) {
+    .content{
+        flex-direction: column;
+    }
+    .place{
+        width: 100px;
+        height: 150px;
+        margin-top: 10px;
+    }
+    
+}
+.slide{
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    float: right;
+    position: absolute;
+    z-index: 5;
+    background-color: #985eff;
+    right: 0px;
+   
+}
+
+.place{
+   height: 400px;
+   min-width: 300px;
+   position: relative;
+   background-color: antiquewhite;
+   overflow: hidden;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   color: white;
+   font-size: 1.5rem;
+   border-radius: 10px;
+}
+
+.placeinner{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+    opacity: 0.46;
+    position: absolute;
+}
+
+#place1{
+    background-image: url(raigad.png);
+    background-size: cover;
+}
+#place2{
+    background-image: url(beach.png);
+    background-position: center;
+    background-size: cover;
+}
+#place3{
+    background-image: url(hillstation.png);
+    background-position: center;
+    background-size: cover;
+}
+#place4{
+    background-image: url(unesco.png);
+    background-size: cover;
+    background-position: center;
+}
+.place:hover{
+    transition: ease-in;
+    transform: scale(1.2,1.2);
+}
+hr{
+    margin-bottom: -10px;
+    height: 5px;
+    width: 100vw;
+    background-color: grey;
+    border: none;
+}
+
+/*footr*/
+footer{
+    height: 70vh;
+    width: 100vw;
+    background-color: #181b1b;
+    color: white;
+}
+.left{
+    float: left;
+    height: 70vh;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+.footerlogo{
+    margin-top: 10px;
+    width: 50%;
+    font-family: "Playwrite NG Modern", cursiv
+}
+.right{
+    float: right;
+    height: 70vh;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.rightcontent{
+    display: flex;
+    width: 100%;
+    height: 70%;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: 1.07rem;
+}
+.rightcontent li{
+    margin-top: 5px;
+}
+.touch{
+    width: 100%;
+    height: 30%;
+    text-align: center;
+   bottom: 0px;
+   font-size: 1.25rem;
+}
+.touch i{
+    margin: 5px;
+    font-size: 1.5rem;
+}

@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+   
+}
+body{
+    background-color: #2b263b;
+    background-image: none;
+}
+.container{
+    height: 50vh;
+    width: 100vw;
+    position: relative;
+    top: 0;
+    background-image: url(Aboutimg\ \(2\).jpeg);
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.search{
+    height: 3rem;
+   border: 1px solid white;
+   border-radius: 10px;
+    margin: auto;
+    background-color: rgba(0, 0, 0, 0.76);
+    color: white;
+}
+#bar{
+    width: 400px;
+}
+#sbtn{
+    width: 100px;
+    margin-left: 5px;
+}
+#sbtn:active{
+    background-color: whitesmoke;
+    color: black;
+}
+h3 a{
+    top: 0;
+    left: 0;
+    position: absolute;
+    z-index: 2;
+  
+}
